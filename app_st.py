@@ -56,6 +56,3 @@ if st.button("Visualizar"):
     plt.xlabel('Motivos')
     plt.xticks(rotation=45, ha='right')
     st.pyplot(plt)
-
-if __name__ == '__main__':
-    main()
