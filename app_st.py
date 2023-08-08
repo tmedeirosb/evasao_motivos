@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Carregar dados
 #@st.cache
 def load_data():
-    return pd.read_csv("/content/drive/MyDrive/Colab Notebooks/EVASAO_MOTIVO/diagnostico_evasao_retencao.csv")
+    return pd.read_csv("diagnostico_evasao_retencao.csv")
 
 df = load_data()
 
